@@ -1,0 +1,32 @@
+{
+  "name": "trafficlite",
+  "version": "1.0.0",
+  "description": "Traffic map generator for dumbphones and other lowspec devices",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IvoGuerreiro/lofiweb-traffic.git"
+  },
+  "keywords": [
+    "Traffic",
+    "Maps",
+    "dumbphone",
+    "lowspec"
+  ],
+  "author": "Ivo Guerreiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvoGuerreiro/lofiweb-traffic/issues"
+  },
+  "homepage": "https://github.com/IvoGuerreiro/lofiweb-traffic#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
